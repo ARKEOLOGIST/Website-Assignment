@@ -1,0 +1,59 @@
+.circle {
+    height: 10px;
+    width: 10px;
+    margin: 7.5px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#selection {
+    margin-top: 60px;
+}
+
+#com {
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+
+#feedback {
+    width: 300px;
+}
+
+#lorem {
+    font-style: italic;
+    color: #8B8E91;
+}
+
+#review {
+    margin-top: 50px;
+}
+
+.circle_selected {
+    height: 10px;
+    width: 10px;
+    margin: 7.5px;
+    background-color: #0099FF;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#heading_4 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#left_4 {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fourth {
+    width: 1000px;
+}

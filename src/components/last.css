@@ -31,10 +31,10 @@
 }
 
 #two_grid_2 {
-    padding-left: 50px;
+    padding-left: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 200px;
+    column-gap: 100px;
 }
 
 .last {
