@@ -1,0 +1,23 @@
+.second {
+    width: 1200px;
+}
+
+#heading {
+    width: 250px;   
+    display: flex;
+    flex-direction: column;
+    margin: 0 500px;
+    padding: 20px 20px 0 0;
+    text-align: center;
+}
+
+#bg {
+    background-image: url('../assets/BG.png');
+    height: 400px;
+}
+
+#table {
+    position: relative;
+    bottom: 275px;
+    left: 250px;
+}

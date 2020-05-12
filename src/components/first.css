@@ -1,0 +1,50 @@
+#right_button_1 {
+    border: 2px #0099FF solid;
+    color: #31373D;
+    position: relative;
+    width: 220px;
+    height: 50px;
+    margin: 10px;
+}
+
+#left_button_1 {
+    background-color: #0099FF;
+    border: 2px #0099FF solid;
+    position: relative;
+    color: #FFFFFF;
+    width: 220px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.button_text_1 {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+
+#space_1 {
+    margin-bottom: 20px;
+}
+
+#para_1 {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
+#buttons_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#two_grid_1 {
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 150px;
+}
+
+.first {
+    width: 1000px;
+}
