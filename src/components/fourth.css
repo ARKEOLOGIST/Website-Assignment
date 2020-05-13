@@ -14,7 +14,7 @@
 #com {
     position: relative;
     top: 20px;
-    right: 40px;
+    right: 160px;
 }
 
 #feedback {
@@ -54,6 +54,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
+#content_4 {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .fourth {
     width: 1000px;
+    text-align: center;
 }

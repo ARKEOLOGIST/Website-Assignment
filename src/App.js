@@ -3,6 +3,7 @@ import './App.css';
 import First from '../src/components/first';
 import Second from '../src/components/second';
 import Last from '../src/components/last';
+import Third from '../src/components/third';
 import Fourth from '../src/components/fourth';
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
     </div>
     <div id="section_2">
     <Second/>
+    </div>
+    <div id="section_3">
+    <Third/>
     </div>
     <div id="section_4">
     <Fourth/>

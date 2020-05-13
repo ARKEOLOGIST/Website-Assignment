@@ -6,6 +6,7 @@ import raja from '../assets/review.PNG';
 function Fourth() {
     return(
        <div className="fourth">
+          <div id="content_4">
           <div id="heading_4"><h2>Here's what our customers have to say</h2></div>
           <div id="text">
           <div id="left_4"><img src={raja} alt="reviewer" height="280px" width="300px"/></div>
@@ -30,6 +31,7 @@ function Fourth() {
           </div>
           </div>
           </div>
+       </div>
        </div>
     );
 }

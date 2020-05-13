@@ -10,7 +10,13 @@
 
 #section_2 {
   width: 1200px;
+  height: 700px;
   margin: 50px auto;
+}
+
+#section_3 {
+  width: 1200px;
+  margin: 100px auto;
 }
 
 #section_4 {
