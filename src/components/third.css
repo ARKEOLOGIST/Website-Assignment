@@ -20,29 +20,42 @@
 }
 
 .rectangle {
-    box-shadow: 2px 2px 1px grey;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
     width: 125px;
     height: 45px;
 }
 
-.rectangle h4 {
+.rectangle > h4 {
     transform: translate(0,-10px);
 }
 
 .rectangle_selected {
-    box-shadow: 2px 2px 1px grey;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
     border: 3px #0099FF solid;
-    width: 125px;
-    height: 45px;
+    width: 120px;
+    height: 40px;
 }
 
 .rectangle_selected h4 {
-    transform: translate(0,-10px);
+    transform: translate(0,-12.5px);
 }
 
 .sort {
     display: flex;
     flex-direction: row;
+}
+
+.size {
+    display: inline-block;
+    margin: 10px;
+}
+
+#pos {
+    transform: translateY(40px);
+}
+
+#mon {
+    transform: translateY(-2.5px);
 }
 
 #cards {
@@ -52,23 +65,27 @@
 }
 
 .card {
-    box-shadow: 2px 2px 1px grey;
+    box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
     padding: 50px 10px 30px;
-    width: 240px;
+    width: 235px;
     height: 100px;
     transform: translateY(50px);
 }
 
 .card_selected {
-    box-shadow: 4px 4px 2px grey;
+    box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
     padding: 50px 10px 30px;
-    width: 220px;
+    width: 215px;
     height: 200px;
-    transform: translateY(-20px);
+    transform: translateY(-5px);
 }
 
 .card_content {
     transform: translate(-30px,-30px);
+}
+
+.card_content > h3 {
+    transform: translateX(-30px);
 }
 
 .define > h2 {
@@ -85,6 +102,23 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.card_selected_content {
+    transform: translateX(-20px);
+}
+
+#selected_text {
+    transform: translate(30px,10px);
+    width: 150px;
+}
+
+#month {
+    transform: translateY(-20px);
+}
+
+#grey {
+    transform: translateY(-20px);
 }
 
 #content_3 {

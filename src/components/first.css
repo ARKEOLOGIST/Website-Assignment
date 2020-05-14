@@ -25,6 +25,16 @@
 
 #space_1 {
     margin-bottom: 20px;
+    text-align: left;
+}
+
+#left_1 {
+    width: 600px;
+    text-align: left;
+}
+
+#left_1 > h1 {
+    font-size: 40px;
 }
 
 #para_1 {
@@ -45,6 +55,12 @@
     column-gap: 150px;
 }
 
+#tex {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .first {
     width: 1000px;
+    text-align: center;
 }

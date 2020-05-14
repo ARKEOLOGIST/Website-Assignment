@@ -5,6 +5,7 @@ import luggage from '../assets/Group 4.png';
 function Last() {
   return (
     <div className="last">
+     <div id="lad">
       <div id = "two_grid_2">
       <div id="para_2">
       <div id="left_2"><h1>Loved by users, recommended by experts</h1></div>
@@ -17,6 +18,7 @@ function Last() {
       <img src={luggage} height="340px" width="300px" alt="luggage"/>
       </div>
       </div>
+     </div>
     </div>
   );
 }

@@ -23,10 +23,10 @@ class Third extends React.Component {
           <span className="rectangle_selected"><h4>100 Serving</h4></span>
           <span className="rectangle"><h4>200 Serving</h4></span>
            </div>
-           <div>
-           <label><div id="size"><h4>Annual</h4><div>50% off</div></div></label>
+           <div id="slide">
+           <div className="size" id="pos"><h4>Annual</h4><div id="grey">50% off</div></div>
            <input type="range" id="slider" step = "1" min="0" max="1"></input>
-           <label><div id="size"><h4>Monthly</h4></div></label>
+           <div className="size" id="mon"><h4>Monthly</h4></div>
            </div>
            <div id="cards">
            <div className="card">
@@ -45,9 +45,9 @@ class Third extends React.Component {
            </div>
            <div className="card_selected">
            <div className="card_selected_content">
-           <div><h3>Your savings with lollipop</h3></div>
+           <div id="selected_text"><h3>Your savings with lollipop</h3></div>
            <div className="blue"><h2>$100</h2></div>
-           <div><i>Per Month</i></div>
+           <div id="month"><i>Per Month</i></div>
            </div>
            </div>
            </div>

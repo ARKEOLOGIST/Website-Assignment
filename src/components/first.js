@@ -5,6 +5,7 @@ import globe from '../assets/globe.PNG';
 function First() {
   return (
     <div className="first">
+     <div id="tex">
       <div id = "two_grid_1">
       <div id="para_1">
       <div id="left_1"><h1>Looking for a lollipop alternative?</h1></div>
@@ -18,6 +19,7 @@ function First() {
       <img src={globe} height="330px" width="280px" alt="globe"/>
       </div>
       </div>
+     </div>
     </div>
   );
 }

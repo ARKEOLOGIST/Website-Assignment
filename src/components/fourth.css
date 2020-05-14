@@ -9,6 +9,8 @@
 
 #selection {
     margin-top: 60px;
+    margin-left: 20px;
+    float:left;
 }
 
 #com {
@@ -22,12 +24,17 @@
 }
 
 #lorem {
+    width: 350px;
     font-style: italic;
     color: #8B8E91;
+    text-align: left;
+    transform: translateX(15px);
 }
 
 #review {
     margin-top: 50px;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .circle_selected {
