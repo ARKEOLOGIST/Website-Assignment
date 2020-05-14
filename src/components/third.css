@@ -1,11 +1,35 @@
-#slider {
-    width: 100px;
-    height: 15px;
-    border-radius: 5px;
+.slider {
+-webkit-appearance: none;
+  width: 50px;
+  height: 15px;
+  border-radius: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
     background: #0099FF;
-    outline: none;
-    opacity: 0.7;
-    transition: opacity .2s;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #0099FF;
+    cursor: pointer;
   }
 
 #typeset {
@@ -17,6 +41,10 @@
 
 .blue {
     color: #0099FF;
+}
+
+.blue > h2 {
+    transform: translateX(-30px);
 }
 
 .rectangle {
@@ -51,11 +79,13 @@
 }
 
 #pos {
-    transform: translateY(40px);
+    transform: translateY(35px);
+    margin: 15px;
 }
 
 #mon {
-    transform: translateY(-2.5px);
+    transform: translate(-5px,-7.5px);
+    margin: 15px;
 }
 
 #cards {
@@ -98,6 +128,10 @@
     color: #8B8E91;
 }
 
+.serve {
+    transform: translateX(-15px);
+}
+
 #boxes {
     display: flex;
     flex-direction: row;
@@ -114,7 +148,8 @@
 }
 
 #month {
-    transform: translateY(-20px);
+    transform: translate(-20px,-20px);
+    color: #8B8E91;
 }
 
 #grey {
